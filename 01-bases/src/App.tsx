@@ -1,10 +1,11 @@
 import Counter from "./bases/Counter";
+import CounterBy from "./bases/CounterBy";
 
-// comment
 function App() {
     return (
         <>
-        <Counter initialState={14}/>
+            <Counter initialValue={2} />
+            <CounterBy />
         </>
     );
 }
